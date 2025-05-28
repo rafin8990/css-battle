@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FINEFLEX</title>
+    <link rel="stylesheet" href="/style/G/fineflex.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">FINEFLIX</div>
+
+        <div class="menu-toggle" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#">Platform</a>
+          <a href="#">Solution</a>
+          <a href="#">Integration</a>
+          <a href="#">Plans</a>
+          <a href="#">Resource</a>
+        </div>
+
+        <div class="auth-buttons" id="authButtons">
+          <a href="#" class="login">Login</a>
+          <a href="#" class="signup">Sign Up</a>
+        </div>
+      </div>
+    </header>
+    <section class="section">
+      <h1>WELCOME TO THE FUTURE OF<br /><span>STRATEGIC FINANCE</span></h1>
+
+      <div class="timeline">
+        <!-- Left -->
+        <div class="left-col">
+          <div>
+            <span class="highlight">7x Faster</span><br />
+            <small>Analysis, Models, Ad Hoc<br />And Board Desks.</small>
+          </div>
+          <div>
+            <strong>60%</strong><br />
+            <small>Increase Time Spend On<br />Insights-Based Strategy</small>
+          </div>
+          <div>
+            <img
+              class="sec-img-round"
+              src="/images//G/Group 1.png"
+              alt="person"
+            />
+            <div>Connect<br />More People</div>
+          </div>
+        </div>
+
+        <!-- Center -->
+        <div class="center-col">
+          <div class="year">20</div>
+          <div class="circle-img">
+            <img src="/images/G/image 11.png" alt="person" />
+          </div>
+          <div class="year">22</div>
+          <div class="circle-img">
+            <img src="/images/G/image 10.png" alt="books" />
+          </div>
+          <div class="circle-img">
+            <img src="/images/G/image 12.png" alt="student" />
+          </div>
+        </div>
+
+        <!-- Right -->
+        <div class="right-col">
+          <div class="green-box">
+            <strong>STRATEGIC FINANCE</strong><br />
+            Finance Teams Have Spent<br />The Majority
+          </div>
+          <div class="pill">JOIN NOW</div>
+        </div>
+      </div>
+    </section>
+    <script>
+      function toggleMenu() {
+        document.getElementById("navLinks").classList.toggle("active");
+        document.getElementById("authButtons").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
